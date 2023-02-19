@@ -49,11 +49,25 @@
       <option name="presentableId" value="Default" />
       <updated>1676360082613</updated>
       <workItem from="1676360084239" duration="7177000" />
-      <workItem from="1676443485648" duration="7124000" />
+      <workItem from="1676443485648" duration="7130000" />
+      <workItem from="1676617945414" duration="9409000" />
+      <workItem from="1676628225181" duration="1053000" />
+      <workItem from="1676784809084" duration="6489000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Week4/BOJ2178.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
