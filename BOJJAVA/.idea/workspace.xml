@@ -52,7 +52,12 @@
       <workItem from="1676443485648" duration="7130000" />
       <workItem from="1676617945414" duration="9409000" />
       <workItem from="1676628225181" duration="1053000" />
-      <workItem from="1676784809084" duration="6489000" />
+      <workItem from="1676784809084" duration="6515000" />
+      <workItem from="1677052185635" duration="596000" />
+      <workItem from="1677133349584" duration="661000" />
+      <workItem from="1677396507540" duration="3497000" />
+      <workItem from="1677585913912" duration="796000" />
+      <workItem from="1678077128240" duration="1037000" />
     </task>
     <servers />
   </component>
@@ -64,8 +69,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Week4/BOJ2178.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
+          <line>27</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

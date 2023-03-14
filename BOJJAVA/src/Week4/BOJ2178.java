@@ -7,7 +7,6 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-
 public class BOJ2178 {
     static int N,M,n,m;
     static int[][] map;
