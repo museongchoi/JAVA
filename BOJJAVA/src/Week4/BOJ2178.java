@@ -37,6 +37,7 @@ public class BOJ2178 {
         BFS(0,0);
         System.out.println(check[N-1][M-1]);
     }
+
     private static void BFS(int x, int y)
     {
         visited[x][y] = true;
