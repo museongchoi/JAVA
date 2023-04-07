@@ -41,6 +41,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Moo\Documents\GitHub\JAVA\FirstJavaCode\src\JavaLec_0404_Week5" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +59,10 @@
       <workItem from="1679391418198" duration="106000" />
       <workItem from="1679987243681" duration="9294000" />
       <workItem from="1679996715271" duration="98000" />
+      <workItem from="1680112274769" duration="285000" />
+      <workItem from="1680153181945" duration="3993000" />
+      <workItem from="1680158478306" duration="26000" />
+      <workItem from="1680591887534" duration="8300000" />
     </task>
     <servers />
   </component>

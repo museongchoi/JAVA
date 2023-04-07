@@ -1,25 +1,40 @@
 package JavaLec_0328_Week4;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MultiDimArray {
     public static void main(String[] args) {
         int numOfLotto = 6;
-        int numOfSet = 4;
+        int numOfSet = 5;
         int maxNumOfLotto = 45;
 
         int[][] randArray = new int[numOfSet][numOfLotto]; // set, 갯수
 
         MakeArray(randArray);
+        SortArray(randArray);
+        printArray(randArray);
+    }
 
-        System.out.println(randArray);
-        System.out.println(randArray[0]);
-        System.out.println(randArray[1]);
-        System.out.println(randArray[2]);
-        System.out.println(randArray[3]);
+    private static void SortArray(int[][] randArray) {
+        for (int i = 0; i < randArray.length; i++)
+        {
+            Arrays.sort(randArray[i]);
+        }
+    }
 
-        System.out.println(randArray.length);
-        System.out.println(randArray[0].length);
-
-
+    private static void printArray(int[][] randArray) {
+        int s = 0;
+        for (int i = 0; i < randArray.length; i++)
+        {
+            s += 1;
+            System.out.print("로또 번호 생성 " + s + "번째 세트 :");
+            for(int j = 0; j < randArray[i].length; j++)
+            {
+                System.out.print(randArray[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
     private static void MakeArray(int[][] randArray) {
         for(int i = 0; i < randArray.length; i++)
@@ -31,12 +46,11 @@ public class MultiDimArray {
                 {
                     if(randArray[i][k] == randArray[i][j])
                     {
-                        i--;
+                        j--;
                         break;
                     }
                 }
             }
         }
-
     }
 }
