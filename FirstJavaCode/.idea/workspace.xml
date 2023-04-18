@@ -43,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaLec_0418_Week7" />
       <recent name="JavaLec_0411" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,10 +75,22 @@
       <workItem from="1681448036619" duration="7501000" />
       <workItem from="1681460666460" duration="2387000" />
       <workItem from="1681463558579" duration="226000" />
+      <workItem from="1681801652943" duration="8259000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaLec_0418_Week7/PhoneBookMain.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
