@@ -12,7 +12,7 @@ public class CourseMain {
         }
 
         // "자료구조", "담당교수님", "강의실명", "학점", "수강생수"
-        comEng[0].setCourse("고급프로그래밍", "김성기교수님", "18424", "3", 50);
+        comEng[0].setCourse("고급프로그래밍", "이형우교수님", "18424", "3", 50);
         comEng[0].printCourse();
 
 

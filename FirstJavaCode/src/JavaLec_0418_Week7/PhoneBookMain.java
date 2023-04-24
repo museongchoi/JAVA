@@ -82,7 +82,7 @@ public class PhoneBookMain {
             {
                 if(arrayPB[i].getName().equals(queryName)) // arrayPB[]의 i 번째에 있는 이름과 입력 받은 이름이 같으면 출력
                 {
-                    System.out.println("사용자 이름 : " + arrayPB[i].getName() + "전화번호 : " + arrayPB[i].getTel());
+                    System.out.println("사용자 이름 : " + arrayPB[i].getName() + " 전화번호 : " + arrayPB[i].getTel());
                     foundFlag = true;
                     break;
                 }
