@@ -9,9 +9,11 @@ public class Delimiter {
         int sum = 0;
         int count = 0;
         int countA = 0, countB = 0, countC = 0, countF = 0;
-        String data = "90, 80, 70, 40, -1";
-        //Scanner sc = new Scanner(System.in).useDelimiter("\\s|,"); // ','만 있어도된다
-        Scanner sc = new Scanner(data).useDelimiter("\\s|,");
+
+        //String data = "90, 80, 70, 40, -1";
+        //Scanner sc = new Scanner(data).useDelimiter("\\s|,"); // data 입력을 직접 줌
+
+        Scanner sc = new Scanner(System.in).useDelimiter("\\s|,"); // ','만 있어도된다
         System.out.println("성적을입력하세요(종료 -1) :");
 
         while (sc.hasNext())    // 입력 받은 것을 토큰, 하나씩 잘라서 가져온다. hasNext 는 계속 값을 받을 수 있는.

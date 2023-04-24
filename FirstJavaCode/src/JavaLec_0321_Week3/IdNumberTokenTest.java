@@ -18,7 +18,7 @@ public class IdNumberTokenTest {
 
         if(idBackNum.charAt(0) == '1' || idBackNum.charAt(0) == '2')
         {
-            System.out.println("출생년도 :" + "19" +idFrontNum.charAt(0) + idFrontNum.charAt(1) + "년 입니다.");
+            System.out.println("출생년도 :" + "19" + idFrontNum.charAt(0) + idFrontNum.charAt(1) + "년 입니다.");
             if(idBackNum.charAt(0) == '1')
             {
                 System.out.println("성별 : 남");
