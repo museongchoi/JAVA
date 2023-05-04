@@ -21,7 +21,7 @@ public class LottoUsingIntArrayMain {
 //        lotArray[2] = new Lotto();
 //        lotArray[3] = new Lotto();
 //        lotArray[4] = new Lotto();
-        for(int i = 0; i < lotArray.length; i++)
+       /* for(int i = 0; i < lotArray.length; i++)
         {
             lotArray[i] = new Lotto();  // i번째 생성을 하지 않을 경우를 대비해서 Null Point try/catch 사용
 
@@ -38,6 +38,6 @@ public class LottoUsingIntArrayMain {
                 e.printStackTrace();
             }
 
-        }
+        }*/
     }
 }

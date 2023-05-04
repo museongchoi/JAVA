@@ -14,12 +14,15 @@ public class CourseMain {
         // "자료구조", "담당교수님", "강의실명", "학점", "수강생수"
         comEng[0].setCourse("고급프로그래밍", "이형우교수님", "18424", "3", 50);
         comEng[0].printCourse();
+        comEng[1].setCourse("자료구조", "나경식교수님", "18426", "3", 90);
+        comEng[1].printCourse();
 
 
         // "이름", "학과/학부", "학번", "학년"
         comEng[0].addStudent("홍길동", "컴공", "202358001", 2);
         comEng[0].addStudent("이순신", "컴공", "202358001", 3);
         comEng[0].printStudent();
+
     }
 
 }

@@ -86,11 +86,11 @@ public class PhoneBookMain {
                     foundFlag = true;
                     break;
                 }
-                foundFlag = false;
-                if(!foundFlag)
+                if(i-1 == arrayPB.length && !foundFlag)
                 {
                     System.out.println("사용자 이름 : " + queryName + " 의 전화번호는 등록되어 있지 않습니다.");
                 }
+                foundFlag = false;  // 사용자 이름 전화번호 확인 뒤에 다시 초기화 해주는 개념
             }
         }
     }
