@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +34,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moo/Documents/GitHub/JAVA/FirstJavaCode&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moo/Desktop/9조+디비디비딥+최종+제출물/CGV_HS_final/src/CGV_HS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -43,10 +44,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaLec_0523" />
+      <recent name="JavaLec_0509" />
       <recent name="CMS_201958142_04_25" />
       <recent name="JavaLec_0425_Test" />
       <recent name="JavaLec_0418_Week7" />
-      <recent name="JavaLec_0411" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Moo\Documents\GitHub\JAVA\FirstJavaCode\src\JavaLec_0404_Week5" />
@@ -84,6 +86,11 @@
       <workItem from="1682674583554" duration="174000" />
       <workItem from="1683014002740" duration="4616000" />
       <workItem from="1683019731143" duration="64000" />
+      <workItem from="1683606767017" duration="798000" />
+      <workItem from="1683615393043" duration="8662000" />
+      <workItem from="1683722901916" duration="65000" />
+      <workItem from="1684825614041" duration="9554000" />
+      <workItem from="1685068448931" duration="1664000" />
     </task>
     <servers />
   </component>
