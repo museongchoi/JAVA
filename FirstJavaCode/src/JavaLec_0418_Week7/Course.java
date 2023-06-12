@@ -33,6 +33,7 @@ public class Course {
         student[studentCount].setStudentIDNum(studentIDNum);
         student[studentCount].setGrade(grade);
 
+        // 생성자 방식
         //Student newStudent = new Student(studentName, dept, studentIDNum, grade);
         //student[studentCount] = newStudent;
 
