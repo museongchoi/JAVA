@@ -22,7 +22,7 @@ public class ShoppingCart {
         {
             item[itemCount] = new Item(name, price, quantity);  // additem을 할때 마다 new
             ShoppingCart.itemCount++;   // 0,1,2에 값을 넣고 카운트가 3이된다.
-            total += price * quantity;
+            total += price * quantity;  // 가격 * 개수 를 total에 계속 더한다.
         } else {
             System.out.println("카트에 " + name + "아이템 추가 불가!!!");
         }

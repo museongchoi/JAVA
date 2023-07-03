@@ -1,4 +1,4 @@
-package JavaLec_06_05_Test2;
+package JavaLec_0605_Test2;
 
 import java.util.Scanner;
 

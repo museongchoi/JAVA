@@ -29,27 +29,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moo/Desktop/practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Moo/Desktop/project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="JavaLec_0613_test1" />
       <recent name="JavaLec_0523" />
       <recent name="JavaLec_0509" />
       <recent name="CMS_201958142_04_25" />
       <recent name="JavaLec_0425_Test" />
-      <recent name="JavaLec_0418_Week7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Moo\Documents\GitHub\JAVA\FirstJavaCode\src\JavaLec_0404_Week5" />
@@ -101,6 +103,9 @@
       <workItem from="1685964956933" duration="383000" />
       <workItem from="1686013843341" duration="6015000" />
       <workItem from="1686039553027" duration="256000" />
+      <workItem from="1686573811678" duration="1682000" />
+      <workItem from="1686633420247" duration="15202000" />
+      <workItem from="1687147765493" duration="760000" />
     </task>
     <servers />
   </component>

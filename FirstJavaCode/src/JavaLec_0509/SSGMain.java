@@ -4,7 +4,7 @@ public class SSGMain {
     public static void main(String[] args) {
 
         int maxItem = 10;   // item number...
-        ShoppingCart sc = new ShoppingCart(5);
+        ShoppingCart sc = new ShoppingCart(5);  // shoppingCart 타입의 sc 객체 선언
 
         sc.addItem("스파클 생수", 1000, 5);
         sc.addItem("제로콜라", 1500, 3);

@@ -1,4 +1,4 @@
-package JavaLec_06_05_Test2;
+package JavaLec_0605_Test2;
 
 public class ShoppingCart {
     int itemCount;
@@ -17,6 +17,7 @@ public class ShoppingCart {
         }
     }
 
+    // 카드 0번에 물건을 넣고 카드 번호 증가
     public void addToCart(String itemName, int itemPrice, int itemQuantity) {
         cart[cnt].setName(itemName);
         cart[cnt].setPrice(itemPrice);
@@ -24,7 +25,8 @@ public class ShoppingCart {
 
         cnt++;
     }
-
+    
+    // 카트에 있는 물건 가격 * 개수를 sum 더하는 작업을 물건이 실린 횟수 만큼
     public int getTotalPrice() {
         int sum = 0;
         for(int i = 0; i < cnt; i++) {
