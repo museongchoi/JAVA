@@ -1,6 +1,6 @@
 package Week4;
 
-class Solution {
+class week3_5 {
     public int solution(int a, int b) {
         int answer = 0;
 
