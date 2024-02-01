@@ -1,5 +1,6 @@
 package Week4;
 
+// 공배수
 public class W4_2 {
     class Solution {
         public int solution(int number, int n, int m) {
