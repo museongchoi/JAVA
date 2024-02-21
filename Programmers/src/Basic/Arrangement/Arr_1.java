@@ -1,6 +1,6 @@
 package Basic.Arrangement;
 
-public class Arrangement_1 {
+public class Arr_1 {
     class Solution {
         public int[][] solution(int[] num_list, int n) {
             int m = num_list.length / n;
