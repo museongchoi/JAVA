@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package HashMap_pr;
 import java.util.*;
 
 // 진료순서 정하기
