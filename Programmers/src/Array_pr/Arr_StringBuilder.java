@@ -1,6 +1,6 @@
 package Array_pr;
 
-public class Arr_4 {
+public class Arr_StringBuilder {
     class Solution {
         public int[] solution(int[] arr, int[] query) {
             StringBuilder sb = new StringBuilder();

@@ -2,7 +2,7 @@ package Array_pr;
 import java.util.*;
 
 // 배열 자르기
-public class Arr_3 {
+public class Arr_copyOfRange_1 {
     //import java.util.*;
     class Solution {
         public int[] solution(int[] numbers, int num1, int num2) {

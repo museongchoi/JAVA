@@ -1,60 +1,43 @@
 package Array_pr;
-import java.util.*;
 
-// 잘라서 배열로 저장하기
+// 배수 구하기
+// '/' 몫을 구하여 배수의 배열 사이즈를 미리 구한다
 public class Arr_2 {
-    //import java.util.*;
-
     class Solution {
-        public String[] solution(String my_str, int n) {
-            List<String> list = new ArrayList<>();
-            String str = "";
+        public int[] solution(int n, int k) {
+            int count = n / k;
+            int[] answer = new int[count];
 
-            for(int i = 0; i < my_str.length(); i++)
-            {
-                str += my_str.charAt(i);
-                if(str.length() == n || i+1 == my_str.length())
-                {
-                    list.add(str);
-                    str = "";
-                }
+            for (int i = 1; i <= count; i++) {
+                answer[i - 1] = k * i;
             }
 
-            String[] answer = new String[list.size()];
-            for(int i = 0; i < answer.length; i++)
-            {
-                answer[i] = list.get(i).toString();
-            }
             return answer;
         }
     }
-
 }
 
 /*
 import java.util.*;
-
 class Solution {
-    public String[] solution(String my_str, int n) {
-        ArrayList<String> str = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
+    public int[] solution(int n, int k) {
+        List<Integer> list = new ArrayList<>();
 
-        for(int i = 0; i < my_str.length(); i++)
+        for(int i = 1; i <= n; i++)
         {
-            if(i%n == 0 && i != 0)
-            {
-                str.add(sb.toString());
-                sb.setLength(0);
+            if(i%k == 0){
+                list.add(i);
             }
-            sb.append(my_str.charAt(i));
         }
-        str.add(sb.toString());
 
-        String[] answer = new String[str.size()];
+        int[] answer = new int[list.size()];
         for(int i = 0; i < answer.length; i++)
         {
-            answer[i] = str.get(i).toString();
+            answer[i] = list.get(i);
         }
+
+        Arrays.sort(answer);
+
         return answer;
     }
 }
