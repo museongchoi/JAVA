@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package Array_pr;
 
 // 숨어있는 숫자의 덧셈 2
 public class Split_1 {

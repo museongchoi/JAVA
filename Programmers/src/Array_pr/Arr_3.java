@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package Array_pr;
 import java.util.*;
 
 // 배열 자르기

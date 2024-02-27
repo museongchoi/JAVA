@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package Array_pr;
 
 public class Arr_4 {
     class Solution {

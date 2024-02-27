@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package Array_pr;
 
 // replaceAll 메소드 사용
 public class STarr_replaceAll {

@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package Array_pr;
 import java.util.*;
 
 // 잘라서 배열로 저장하기

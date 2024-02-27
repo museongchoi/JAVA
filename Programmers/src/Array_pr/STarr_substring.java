@@ -1,4 +1,4 @@
-package Basic.Arrangement;
+package Array_pr;
 
 public class STarr_substring {
     class Solution {
